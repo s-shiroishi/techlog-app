@@ -54,6 +54,8 @@ group :development do
   gem 'rubocop-rails', require: false # 追加
   gem 'rubocop-rspec' # 追加
   gem 'web-console'
+  gem 'rspec-rails'
+  gem 'factory_bot_rails'
 end
 
 group :test do
